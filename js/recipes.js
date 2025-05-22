@@ -84,7 +84,7 @@ resetBtn.addEventListener('click', resetGame);
 
 
 // Загрузка рецептов из JSON
-fetch('/data/recipes.json')
+fetch('../data/recipes.json')
   .then(response => response.json())
   .then(data => {
     const recipesBox = document.getElementById('recipes_box');

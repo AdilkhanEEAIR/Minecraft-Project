@@ -22,7 +22,7 @@ const goldInput = document.querySelector('#gold');
 const converter = (element, targetElement1, targetElement2) => {
     element.oninput = () => {
         const request = new XMLHttpRequest();
-        request.open('GET', '/data/converter.json');
+        request.open('GET', '../data/converter.json');
         request.setRequestHeader('Content-type', 'application/json');
         request.send();
 
