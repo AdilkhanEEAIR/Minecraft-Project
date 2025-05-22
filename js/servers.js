@@ -22,7 +22,7 @@ const goldInput = document.querySelector('#gold');
 const converter = (element, targetElement1, targetElement2) => {
     element.oninput = () => {
         const request = new XMLHttpRequest();
-        request.open('GET', '/data/converter.json');
+        request.open('GET', '../data/converter.json');
         request.setRequestHeader('Content-type', 'application/json');
         request.send();
 
@@ -58,7 +58,7 @@ const searchButton = document.querySelector('#search');
 const city = document.querySelector('.city');
 const temp = document.querySelector('.temp');
 
-const BASE_API = 'http://api.openweathermap.org/data/2.5/weather'
+const BASE_API = 'https://api.openweathermap.org/data/2.5/weather'
 const API_KEY = 'e417df62e04d3b1b111abeab19cea714';
 
 searchButton.onclick = () => {
