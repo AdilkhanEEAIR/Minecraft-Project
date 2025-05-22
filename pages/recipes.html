@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <link rel="stylesheet" href="/css/recipes.css">
+    <link rel="shortcut icon" href="/images/favicons/recipes.webp" type="image/x-icon">
+    <title>Рецепты</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html"><img class="main_logo" src="/images/index.imgs/index.img" alt="Minecraft"></a>
+                <button class="burger" id="burger">☰</button>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="/pages/recipes.html">РЕЦЕПТЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/guides.html">ГАЙДЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/servers.html">СЕРВЕРА И СООБЩЕСТВА</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/build.html">ПОСТРОЙКИ И МЕХАНИЗМЫ</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Обратная связь</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="email-section">
+        <div class="container">
+            <div class="recipe_box">
+                <h2>Получите топовые рецепты Minecraft по email!</h2>
+                <p>Введите свою почту, и мы пришлём список рецептов!</p>
+                    <form id="recipeEmailForm">
+                        <input type="email" id="recipeEmailInput" placeholder="minecraft@gmail.com" required>
+                        <button type="submit">Получить рецепты</button>
+                        <p id="recipeEmailMessage"></p>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="minecraft-game">
+        <h2>Нажмите на алмазный блок как можно больше раз за 10 секунд</h2>
+        <div id="diamond-block"></div>
+        <div class="game-info">
+            <p>Осталось: <span id="time">10</span> сек</p>
+            <p>Счёт: <span id="score">0</span></p>
+        </div>
+        <div class="game-buttons">
+            <button id="startGameBtn">Старт</button>
+            <button id="stopGameBtn">Стоп</button>
+            <button id="resetGameBtn">Сброс</button>
+        </div>
+    </section>
+
+
+
+
+    <section class="recipes-section">
+        <div class="container">
+            <h1>Рецепты</h1>
+            <div id="recipes_box"></div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerInner">
+                <a href="https://www.instagram.com/dzhanhan_a/#">MADE BY ADILKHAN</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&#10006;</div>
+                    <div class="modal_title">Оставьте свой вопрос</div>
+                    <label>
+                        <input required placeholder="Ник в Minecraft" name="nickname" type="text" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Ваш Email" name="email" type="email" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Что Вас интересует?" name="question" type="text" class="modal_input">
+                    </label>
+                    <button class="btn btn_dark btn_min">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/js/modal.js"></script>
+    <script src="/js/recipes.js"></script>
+
+</body>
+</html>

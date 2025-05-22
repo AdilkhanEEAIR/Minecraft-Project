@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <link rel="stylesheet" href="/css/build.css">
+    <link rel="shortcut icon" href="/images/favicons/build.webp" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Постройки и механизмы</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html"><img class="main_logo" src="/images/index.imgs/index.img" alt="Minecraft"></a>
+                <button class="burger" id="burger">☰</button>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="/pages/recipes.html">РЕЦЕПТЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/guides.html">ГАЙДЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/servers.html">СЕРВЕРА И СООБЩЕСТВА</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/build.html">ПОСТРОЙКИ И МЕХАНИЗМЫ</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Обратная связь</button>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="maze-section">
+        <div class="container">
+            <h1>Steve in the Maze</h1>
+            <div class="input-group">
+                <label for="rows">Строк:</label>
+                <input type="number" id="rows" value="10" min="10" max="50">
+                <label for="cols">Столбцов:</label>
+                <input type="number" id="cols" value="10" min="10" max="50">
+                <button onclick="start()">Запустить лабиринт</button>
+            </div>
+
+            <div id="maze" class="maze"></div>
+        </div>
+    </section>
+
+
+
+    <section class="posts-section">
+        <div class="container">
+            <div id="cardsContainer" class="cards-display"></div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerInner">
+                <a href="https://www.instagram.com/dzhanhan_a/#">MADE BY ADILKHAN</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&#10006;</div>
+                    <div class="modal_title">Оставьте свой вопрос</div>
+                    <label>
+                        <input required placeholder="Ник в Minecraft" name="nickname" type="text" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Ваш Email" name="email" type="email" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Что Вас интересует?" name="question" type="text" class="modal_input">
+                    </label>
+                    <button class="btn btn_dark btn_min">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/js/modal.js"></script>
+    <script src="/js/build.js"></script>
+
+</body>
+</html>

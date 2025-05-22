@@ -1,0 +1,488 @@
+@media (max-width: 1400px) {
+  .header .container {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .inner_header {
+    padding-inline: 40px;
+  }
+  .inner_header .main_logo {
+    width: 320px;
+    height: 80px;
+  }
+  .inner_header .menu {
+    gap: 15px;
+    font-size: 18px;
+  }
+  .inner_header .btn {
+    width: 140px;
+    height: 45px;
+    font-size: 12px;
+    margin-top: 28px;
+  }
+}
+@media (max-width: 1198px) {
+  .header .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .inner_header {
+    padding-inline: 20px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .inner_header .main_logo {
+    width: 100px;
+    height: auto;
+  }
+  .inner_header .menu {
+    gap: 10px;
+    font-size: 16px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .inner_header .btn {
+    width: 200px;
+    height: 42px;
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  ul {
+    gap: 10px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px) {
+  .inner_header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-inline: 20px;
+  }
+  .inner_header .menu {
+    display: none !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #387c3f;
+    padding: 20px;
+    gap: 20px;
+    z-index: 1000;
+  }
+  .inner_header .menu.active {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .inner_header .burger {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .inner_header .btn {
+    margin-top: 0;
+    height: 40px;
+    font-size: 10px;
+  }
+  .inner_header .main_logo {
+    width: 180px;
+    height: auto;
+  }
+}
+@media (max-width: 1300px) {
+  .inner_header {
+    padding-inline: 40px;
+  }
+  .inner_header .main_logo {
+    width: 300px;
+  }
+  .inner_header .btn {
+    width: 140px;
+    height: 45px;
+    font-size: 12px;
+  }
+  .inner_header .btn {
+    width: 140px;
+    height: 45px;
+    font-size: 12px;
+  }
+  .inner_header .menu {
+    gap: 15px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1120px) {
+  .inner_header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-inline: 20px;
+  }
+  .inner_header .menu {
+    display: none !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #387c3f;
+    padding: 20px;
+    gap: 15px;
+    z-index: 1000;
+  }
+  .inner_header .menu.active {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .inner_header .burger {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 35px;
+  }
+  .inner_header .main_logo {
+    width: 200px;
+  }
+  .inner_header .btn {
+    margin-top: 10px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 780px) {
+  .inner_header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-inline: 20px;
+  }
+  .inner_header .menu {
+    display: none !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #387c3f;
+    padding: 20px;
+    gap: 15px;
+    z-index: 1000;
+  }
+  .inner_header .menu.active {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .inner_header .burger {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+  .inner_header .main_logo {
+    width: 200px;
+  }
+  .inner_header .btn {
+    margin-top: 10px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 680px) {
+  .main_logo {
+    width: 160px;
+  }
+  .btn {
+    width: 130px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 550px) {
+  .main_logo {
+    width: 140px;
+  }
+  .btn {
+    width: 120px;
+    font-size: 8px;
+  }
+  .menu {
+    font-size: 14px;
+  }
+}
+@media (max-width: 470px) {
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+  header .container {
+    padding: 0 10px;
+  }
+  header .inner_header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+    padding-inline: 0;
+  }
+  header .inner_header .main_logo {
+    width: 250px;
+    height: auto;
+  }
+  header .inner_header .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    gap: 10px;
+    display: none;
+  }
+  header .inner_header .menu.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .inner_header .menu_link a {
+    font-size: 16px;
+  }
+  header .inner_header .btn {
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    font-size: 12px;
+  }
+  header .inner_header .burger {
+    display: block;
+    font-size: 28px;
+    margin: 0;
+  }
+}
+@media (max-width: 330px) {
+  .main_logo {
+    width: 120px;
+  }
+  .btn {
+    width: 100px;
+    height: 35px;
+    font-size: 7px;
+  }
+  .menu {
+    font-size: 12px;
+    gap: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .section .title_bg {
+    padding: 150px;
+  }
+  .sliderText .sliderInner .slider .slide {
+    padding: 15px;
+  }
+  .about-minecraft {
+    padding: 30px 15px;
+  }
+  .video-slider iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  .section .title_bg {
+    padding: 100px;
+  }
+  .section .title_bg h1 {
+    font-size: 36px;
+  }
+  .sliderText .sliderInner .slider .slide h2 {
+    font-size: 22px;
+  }
+  .sliderText .sliderInner .slider .slide p {
+    font-size: 16px;
+  }
+  .about-minecraft h3 {
+    font-size: 18px;
+  }
+  .about-minecraft p {
+    font-size: 14px;
+  }
+  .modal .modal_dialog {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .section .title_bg {
+    padding: 60px;
+  }
+  .sliderText {
+    margin-bottom: 40px;
+  }
+  .tool_buttons button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  .sliderText .sliderInner .slider .slide h2 {
+    font-size: 20px;
+  }
+  .sliderText .sliderInner .slider .slide p {
+    font-size: 14px;
+  }
+  .about-minecraft {
+    padding: 20px 10px;
+  }
+  .video-slider .videoBox iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .section .title_bg {
+    padding: 30px;
+  }
+  .section .title_bg h1 {
+    font-size: 24px;
+  }
+  .tool_buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .tool_buttons button {
+    width: 100%;
+  }
+  .sliderText .sliderInner .slider .btn-slide {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .about-minecraft h3 {
+    font-size: 16px;
+  }
+  .about-minecraft p {
+    font-size: 13px;
+  }
+  .modal .modal_dialog {
+    padding: 15px;
+  }
+  .modal .modal_input {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 1250px) {
+  .section .container {
+    padding: 0 20px;
+  }
+  .section .container .inner_section {
+    gap: 30px;
+  }
+  .section .container .inner_section .title_bg {
+    padding: 100px 20px;
+  }
+  .section .container .inner_section .title_bg h1 {
+    font-size: 32px;
+  }
+  .section .container .inner_section .tool_buttons button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  .section .container .inner_section #factDisplay {
+    font-size: 18px;
+  }
+  .sliderText {
+    margin-top: 40px;
+    height: auto;
+  }
+  .sliderText .container {
+    padding: 0 20px;
+  }
+  .sliderText .container .sliderInner .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 90%;
+    padding: 10px;
+  }
+  .sliderText .container .sliderInner .slider .slide {
+    max-width: 100%;
+    padding: 15px;
+  }
+  .sliderText .container .sliderInner .slider .slide h2 {
+    font-size: 20px;
+  }
+  .sliderText .container .sliderInner .slider .slide p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .sliderText .container .sliderInner .slider .slide a {
+    font-size: 14px;
+  }
+  .sliderText .container .sliderInner .slider .btn-slide {
+    font-size: 16px;
+    padding: 10px 14px;
+    margin: 10px;
+  }
+}
+@media (max-width: 500px) {
+  footer {
+    height: auto;
+    padding: 20px 10px;
+  }
+  footer .container .footerInner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  footer .container .footerInner a {
+    padding-top: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+}

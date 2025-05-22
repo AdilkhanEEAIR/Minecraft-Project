@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.phone-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 160px;
+  background-color: rgba(46, 125, 50, 0.95);
+  border-radius: 10px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.phone-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.phone-section .container h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Press Start 2P", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.phone-section .container .subtitle {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.phone-section .container input {
+  width: 300px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #e0f2f1;
+  color: #000;
+  margin-bottom: 15px;
+}
+.phone-section .container button {
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #43a047;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.phone-section .container button:hover {
+  background-color: #2e7d32;
+}
+.phone-section .container .message {
+  margin-top: 15px;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.phone-section .container .message.error {
+  color: #ff5252;
+  font-size: 20px;
+}
+.phone-section .container .message.success {
+  color: #00e676;
+  font-size: 20px;
+}
+
+.converter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Press Start 2P", cursive;
+  background-color: rgba(46, 125, 50, 0.95);
+  border: 2px solid #000;
+  padding: 25px 20px;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+.converter .container {
+  text-align: center;
+}
+.converter .container h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.converter .container .inner_converter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 12px;
+}
+.converter .container .inner_converter > div {
+  background-color: rgba(46, 125, 50, 0.95);
+  padding: 12px;
+  width: 300px;
+  border-radius: 20px;
+}
+.converter .container .inner_converter > div label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #222;
+}
+.converter .container .inner_converter > div input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 13px;
+  padding: 8px;
+  border: 2px solid #000;
+  background-color: #c8e6c9;
+  color: #000;
+  -webkit-box-shadow: inset 1px 1px 0 #000;
+          box-shadow: inset 1px 1px 0 #000;
+  border-radius: 2px;
+  -webkit-transition: -webkit-box-shadow 0.2s ease;
+  transition: -webkit-box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
+}
+.converter .container .inner_converter > div input::-webkit-input-placeholder {
+  font-family: "Press Start 2P", cursive;
+  font-size: 9px;
+  color: #555;
+}
+.converter .container .inner_converter > div input::-moz-placeholder {
+  font-family: "Press Start 2P", cursive;
+  font-size: 9px;
+  color: #555;
+}
+.converter .container .inner_converter > div input:-ms-input-placeholder {
+  font-family: "Press Start 2P", cursive;
+  font-size: 9px;
+  color: #555;
+}
+.converter .container .inner_converter > div input::-ms-input-placeholder {
+  font-family: "Press Start 2P", cursive;
+  font-size: 9px;
+  color: #555;
+}
+.converter .container .inner_converter > div input::placeholder {
+  font-family: "Press Start 2P", cursive;
+  font-size: 9px;
+  color: #555;
+}
+.converter .container .inner_converter > div input:focus {
+  border-color: #009814;
+}
+
+.weather {
+  background-color: rgba(46, 125, 50, 0.95);
+  border: 2px solid #000;
+  font-family: "Press Start 2P", cursive;
+  padding: 25px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.weather .container {
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.weather .container h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.weather .container .inner_weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.weather .container .inner_weather .weather_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.weather .container .inner_weather .weather_input .cityName {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 300px;
+}
+.weather .container .inner_weather .weather_input .cityName::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #333;
+}
+.weather .container .inner_weather .weather_input .cityName::-moz-placeholder {
+  font-size: 16px;
+  color: #333;
+}
+.weather .container .inner_weather .weather_input .cityName:-ms-input-placeholder {
+  font-size: 16px;
+  color: #333;
+}
+.weather .container .inner_weather .weather_input .cityName::-ms-input-placeholder {
+  font-size: 16px;
+  color: #333;
+}
+.weather .container .inner_weather .weather_input .cityName::placeholder {
+  font-size: 16px;
+  color: #333;
+}
+.weather .container .inner_weather .weather_input .btnWeather {
+  margin-top: 20px;
+  font-family: inherit;
+  font-size: 10px;
+  background-color: #00980a;
+  padding: 10px 16px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+.weather .container .inner_weather .weather_input .btnWeather:hover {
+  background-color: #047a0a;
+}
+.weather .container .inner_weather .weather_result {
+  padding: 16px;
+  border-radius: 6px;
+}
+.weather .container .inner_weather .weather_result .city {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.weather .container .inner_weather .weather_result .temp {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+}

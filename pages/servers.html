@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <link rel="stylesheet" href="/css/servers.css">
+    <link rel="shortcut icon" href="/images/favicons/servers.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервера и Сообщества</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html"><img class="main_logo" src="/images/index.imgs/index.img" alt="Minecraft"></a>
+                <button class="burger" id="burger">☰</button>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="/pages/recipes.html">РЕЦЕПТЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/guides.html">ГАЙДЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/servers.html">СЕРВЕРА И СООБЩЕСТВА</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/build.html">ПОСТРОЙКИ И МЕХАНИЗМЫ</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Обратная связь</button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="phone-section">
+        <div class="container">
+            <h1>Вступайте в наш сервер!</h1>
+            <p class="subtitle">Введите свой номер телефона</p>
+            <input type="text" id="phoneInput" placeholder="+996 XXX XXX XXX">
+            <button onclick="validatePhone()">Добавить номер</button>
+            <div id="message" class="message"></div>
+        </div>
+    </section>
+
+    <section class="converter">
+        <div class="container">
+            <h3>Конвертер валют</h3>
+            <div class="inner_converter">
+                <div class="som">
+                    <label for="som">Сом</label>
+                    <input type="number" id="som" placeholder="СОМ">
+                </div>
+                <div class="diamond">
+                    <label for="diamond">Алмаз</label>
+                    <input type="number" id="diamond" placeholder="АЛМАЗЫ">
+                </div>
+                <div class="gold">
+                    <label for="gold">Золото</label>
+                    <input type="number" id="gold" placeholder="ЗОЛОТО">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="weather">
+        <div class="container">
+            <h3>WEATHER</h3>
+            <div class="inner_weather">
+                <div class="weather_input">
+                    <label>
+                        <input type="text" class="cityName" placeholder="Найти погоду в...">
+                    </label>
+                    <button class="btnWeather" id="search">Search</button>
+                </div>
+                <div class="weather_result">
+                    <span class="city"></span>
+                        
+                    <span class="temp"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerInner">
+                <a href="https://www.instagram.com/dzhanhan_a/#">MADE BY ADILKHAN</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&#10006;</div>
+                    <div class="modal_title">Оставьте свой вопрос</div>
+                    <label>
+                        <input required placeholder="Ник в Minecraft" name="nickname" type="text" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Ваш Email" name="email" type="email" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Что Вас интересует?" name="question" type="text" class="modal_input">
+                    </label>
+                    <button class="btn btn_dark btn_min">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/modal.js"></script>
+    <script src="/js/servers.js"></script>
+    
+</body>
+</html>

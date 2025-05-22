@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <link rel="shortcut icon" href="/images/favicons/main.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft World</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html"><img class="main_logo" src="/images/index.imgs/index.img" alt="Minecraft"></a>
+                <button class="burger" id="burger">☰</button>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="/pages/recipes.html">РЕЦЕПТЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/guides.html">ГАЙДЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/servers.html">СЕРВЕРА И СООБЩЕСТВА</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/build.html">ПОСТРОЙКИ И МЕХАНИЗМЫ</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Обратная связь</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="inner_section">
+                <div class="title_bg">
+                    <h1>Minecraft — на самом деле это больше, чем просто игра!</h1>
+                </div>
+                <div class="tool_buttons">
+                    <button id="factBtn">Случайный факт о Minecraft</button>
+                    <button id="themeBtn">Переключить тему</button>
+                </div>
+                <div id="factContainer">
+                    <p id="factDisplay"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sliderText">
+        <div class="container">
+            <div class="sliderInner">
+                <div class="slider">
+                    <button class="btn-slide" id="prevBtn">&larr;</button>
+                    <div class="slide active">
+                        <h2>Что такое Minecraft?</h2>
+                        <p>Minecraft — это песочница, где игроки могут строить, исследовать и выживать в процедурно сгенерированном мире.</p>
+                        <a href="https://www.minecraft.net/ru-ru/download" class="download-link">Скачать Minecraft:</a>
+                    </div>
+                    <div class="slide">
+                        <h2>Режимы игры</h2>
+                        <p>Игра предлагает различные режимы: выживание, креатив, хардкор, приключение и наблюдение.</p>
+                        <a href="https://www.minecraft.net/ru-ru/download" class="download-link">Скачать Minecraft:</a>
+                    </div>
+                    <div class="slide">
+                        <h2>Крафтинг</h2>
+                        <p>Крафтинг — одна из ключевых механик Minecraft, позволяющая создавать предметы из собранных ресурсов.</p>
+                        <a href="https://www.minecraft.net/ru-ru/download" class="download-link">Скачать Minecraft:</a>
+                    </div>
+                    <div class="slide">
+                        <h2>Редстоун механизмы</h2>
+                        <p>Редстоун позволяет создавать сложные механизмы: от ловушек до автоматических ферм и компьютеров.</p>
+                        <a href="https://www.minecraft.net/ru-ru/download" class="download-link">Скачать Minecraft:</a>
+                    </div>
+                    <div class="slide">
+                        <h2>Сообщество и моды</h2>
+                        <p>У Minecraft одно из самых активных сообществ, создающих моды, карты и текстуры, расширяющие игровой опыт.</p>
+                        <a href="https://www.minecraft.net/ru-ru/download" class="download-link">Скачать Minecraft:</a>
+                    </div>
+                    <button class="btn-slide" id="nextBtn">&rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-minecraft">
+        <div class="container">
+          <h3>О Minecraft</h3>
+          <p>
+            Minecraft — это популярная песочница, выпущенная в 2011 году компанией Mojang. 
+            Игра позволяет игрокам исследовать, строить и выживать в процедурно генерируемом мире, 
+            состоящем из кубических блоков. Minecraft славится свободой действий, модами и 
+            возможностью креативного самовыражения. Доступны режимы выживания, творчества, приключений 
+            и хардкора, а также поддержка игры по сети.
+          </p>
+        </div>
+    </section>
+      
+    
+
+    <section class="video-slider">
+        <div class="container">
+            <div class="videoInner">
+                <h4>Популярные видео:</h4>
+                <div class="videoBox">
+                    <button id="prevVideo">&larr;</button>
+                    <div class="video-slide active">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hlTGjc7Gn04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-slide">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QsUfsZzxi9c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    </div>
+                    <div class="video-slide">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/zspxDn4-wow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    </div>
+                    <button id="nextVideo">&rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerInner">
+                <a href="https://www.instagram.com/dzhanhan_a/#">MADE BY ADILKHAN</a>
+            </div>
+        </div>
+    </footer>
+      
+      
+
+
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&#10006;</div>
+                    <div class="modal_title">Оставьте свой вопрос</div>
+                    <label>
+                        <input required placeholder="Ник в Minecraft" name="nickname" type="text" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Ваш Email" name="email" type="email" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Что Вас интересует?" name="question" type="text" class="modal_input">
+                    </label>
+                    <button class="btn btn_dark btn_min">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/js/modal.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

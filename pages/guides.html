@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
+    <link rel="stylesheet" href="/css/guides.css">
+    <link rel="shortcut icon" href="/images/favicons/guides.png" type="image/x-icon">
+    <title>Гайды</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html"><img class="main_logo" src="/images/index.imgs/index.img" alt="Minecraft"></a>
+                <button class="burger" id="burger">☰</button>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="/pages/recipes.html">РЕЦЕПТЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/guides.html">ГАЙДЫ</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/servers.html">СЕРВЕРА И СООБЩЕСТВА</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="/pages/build.html">ПОСТРОЙКИ И МЕХАНИЗМЫ</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Обратная связь</button>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="guides_section">
+        <div class="container">
+            <h3>Как скачать Minecraft?</h3>
+            <div class="guides_slider_inner">
+                <div class="guides_contents">
+
+                    <div class="guide_content active">
+                        <h4>1. Скачивание лаунчера</h4>
+                        <p>Перейдите на официальный сайт minecraft.net и скачайте лаунчер для вашей операционной системы.</p>
+                    </div>
+                    <div class="guide_content">
+                        <h4>2. Установка</h4>
+                        <p>Откройте скачанный файл и следуйте инструкциям установщика. После установки запустите лаунчер.</p>
+                    </div>
+                    <div class="guide_content">
+                        <h4>3. Вход в аккаунт</h4>
+                        <p>Войдите в свой аккаунт Microsoft или создайте новый, если у вас его нет.</p>
+                    </div>
+                    <div class="guide_content">
+                        <h4>4. Выбор версии</h4>
+                        <p>В лаунчере выберите нужную версию Minecraft (например, последнюю или определённую) и нажмите «Играть».</p>
+                    </div>
+                    <div class="guide_content">
+                        <h4>5. Установка модов (по желанию)</h4>
+                        <p>Для установки модов скачайте Forge, установите его, затем поместите моды в папку .minecraft/mods.</p>
+                    </div>
+
+                    <div class="guide_tabs">
+                        <div class="guide_tab active">Скачать</div>
+                        <div class="guide_tab">Установка</div>
+                        <div class="guide_tab">Аккаунт</div>
+                        <div class="guide_tab">Версия</div>
+                        <div class="guide_tab">Моды</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="card-switcher">
+        <div class="container">
+            <h2>Предметы Minecraft</h2>
+            <div class="controls">
+                <button id="prevButton">&larr;</button>
+                <div id="card" class="card"></div>
+                <button id="nextButton">&rarr;</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerInner">
+                <a href="https://www.instagram.com/dzhanhan_a/#">MADE BY ADILKHAN</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&#10006;</div>
+                    <div class="modal_title">Оставьте свой вопрос</div>
+                    <label>
+                        <input required placeholder="Ник в Minecraft" name="nickname" type="text" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Ваш Email" name="email" type="email" class="modal_input">
+                    </label>
+                    <label>
+                        <input required placeholder="Что Вас интересует?" name="question" type="text" class="modal_input">
+                    </label>
+                    <button class="btn btn_dark btn_min">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/js/modal.js"></script>
+    <script src="/js/guides.js"></script>
+</body>
+</html>
