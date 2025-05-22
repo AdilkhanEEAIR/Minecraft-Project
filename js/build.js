@@ -107,7 +107,7 @@ async function fetchPosts() {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts');
     const posts = await response.json();
     posts.forEach(post => {
-      const imageUrl = `./images/index.imgs/card_img.jpg`;
+      const imageUrl = `/images/index.imgs/card_img.jpg`;
       const postCard = document.createElement('div');
       postCard.className = 'post-card';
 
